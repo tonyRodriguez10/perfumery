@@ -1,0 +1,4 @@
+export const GET_LOCATIONS = 'GET_LOCATIONS';
+export const POST_LOCATION = 'POST_LOCATION';
+export const PUT_LOCATION = 'PUT_LOCATION';
+export const DELETE_LOCATION = 'DELETE_LOCATION';

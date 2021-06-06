@@ -1,0 +1,4 @@
+export const GET_ARTICLES = 'GET_ARTICLES';
+export const POST_ARTICLE = 'POST_ARTICLE';
+export const PUT_ARTICLE = 'PUT_ARTICLE';
+export const DELETE_ARTICLE = 'DELETE_ARTICLE';

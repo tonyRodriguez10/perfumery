@@ -1,0 +1,9 @@
+const ArticlesData = [
+  {CodigoPrincipal: '3312', CodigoAlterno: 'art_', nombre: 'nombreArt', descripcion: 'descripcion de ejemplo', descuentoMaximo: '10%', minimo: '225', maximo: '2000', costoPromedio: '100', costo: '100', utilidad1: '0', subTotal1: '0', precioVenta1: '0', utilidad2: '0', subTotal2: '0', precioVenta2: '0', utilidad3: '0', subTotal3: '0', precioVenta3: '0' },
+  {CodigoPrincipal: '3312', CodigoAlterno: 'art_', nombre: 'nombreArt', descripcion: 'descripcion de ejemplo', descuentoMaximo: '10%', minimo: '225', maximo: '2000', costoPromedio: '100', costo: '100', utilidad1: '0', subTotal1: '0', precioVenta1: '0', utilidad2: '0', subTotal2: '0', precioVenta2: '0', utilidad3: '0', subTotal3: '0', precioVenta3: '0' },
+  {CodigoPrincipal: '3312', CodigoAlterno: 'art_', nombre: 'nombreArt', descripcion: 'descripcion de ejemplo', descuentoMaximo: '10%', minimo: '225', maximo: '2000', costoPromedio: '100', costo: '100', utilidad1: '0', subTotal1: '0', precioVenta1: '0', utilidad2: '0', subTotal2: '0', precioVenta2: '0', utilidad3: '0', subTotal3: '0', precioVenta3: '0' },
+  {CodigoPrincipal: '3312', CodigoAlterno: 'art_', nombre: 'nombreArt', descripcion: 'descripcion de ejemplo', descuentoMaximo: '10%', minimo: '225', maximo: '2000', costoPromedio: '100', costo: '100', utilidad1: '0', subTotal1: '0', precioVenta1: '0', utilidad2: '0', subTotal2: '0', precioVenta2: '0', utilidad3: '0', subTotal3: '0', precioVenta3: '0' },
+  {CodigoPrincipal: '3312', CodigoAlterno: 'art_', nombre: 'nombreArt', descripcion: 'descripcion de ejemplo', descuentoMaximo: '10%', minimo: '225', maximo: '2000', costoPromedio: '100', costo: '100', utilidad1: '0', subTotal1: '0', precioVenta1: '0', utilidad2: '0', subTotal2: '0', precioVenta2: '0', utilidad3: '0', subTotal3: '0', precioVenta3: '0' },
+]
+
+export default ArticlesData

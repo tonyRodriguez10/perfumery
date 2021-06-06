@@ -1,0 +1,72 @@
+// todo: disabled button styles
+button {
+  &:disabled {
+    cursor: default;
+  }
+  &.disabled {
+    cursor: default;
+  }
+}
+
+// todo: brand button icon margin
+.btn-brand:not(:only-child) {
+  .c-icon {
+    margin-top: 0 !important;
+  }
+}
+
+/* Fix 1: inputs & selects aura*/
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #cce6ff;
+}
+
+.custom-select:focus {
+  box-shadow: 0 0 0 0.2rem #cce6ff;
+}
+
+/* Fix 2: pagination color */
+.page-item.active .page-link {
+  background-color: #c6ad51;
+  border-color: black;
+  color: black;
+}
+
+/* Fix 3: radios & checks color */
+.custom-control-input:checked~.custom-control-label:before {
+  /* color: #fff; */
+  border-color: #ebedef;
+  background-color: #c6ad51;
+  color: black;
+}
+
+/* Fix 4:color principal de la APP */
+.c-app {
+  background: -webkit-linear-gradient(to right, #c6ad51, #c71828);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c6ad51, #c71828); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Fix 5: menu options hover, el color cuando se pasa el mouse encima*/
+.c-sidebar .c-sidebar-nav-link:hover, .c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+  background: #c6ad51;
+  color: black;
+}
+
+/* Fix 6:  color y borde cuando esta activo el LINK */
+.c-sidebar .c-sidebar-nav-link.c-active, .c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+  background: #c6ad51;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+/* Fix 7: modal backdrop color & backdrop blur */
+.modal-backdrop {
+  background-color: #cde6ff4a;
+  color: black;
+
+}
+.modal {
+  -webkit-backdrop-filter: blur(1.2px);
+  backdrop-filter: blur(1.2px);
+}
